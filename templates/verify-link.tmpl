@@ -1,0 +1,16 @@
+{{ define "content" }}
+<td style="padding: 0 35px">
+  <h1 class="h1">{{.MainAction}}</h1>
+  <p class="p2">{{.Greeting}},</p>
+  <span class="s1"></span>
+  <p class="p1">{{.Message}}<br /><a href="{{.URL}}">{{.ActionMessage}}</a>.</p>
+  <span class="s1"></span>
+  <p class="p3"><a href="{{.URL}}">{{.URL}}</a>.</p>
+  <span class="s1"></span>
+  <p class="p3">
+    If you did not request this service, please contact our support team
+    immediately at {{.SUPPORT_PHONE}} or {{.SUPPORT_EMAIL}}.
+  </p>
+</td>
+
+{{ end }}
